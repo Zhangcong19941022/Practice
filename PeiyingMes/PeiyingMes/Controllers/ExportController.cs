@@ -17,7 +17,7 @@ namespace PeiyingMes.Controllers
         [Route("ExportUpLoad")]
         public  void ExportUpLoad()
         {
-            BLL.ExportBLL.ExportUpLoad();
+              BLL.ExportBLL.ExportUpLoad();
         }
     }
 }
