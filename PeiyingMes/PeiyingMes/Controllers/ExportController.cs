@@ -15,9 +15,9 @@ namespace PeiyingMes.Controllers
         /// </summary>
         [HttpPost]
         [Route("ExportUpLoad")]
-        public  void ExportUpLoad()
+        public void ExportUpLoad()
         {
-              BLL.ExportBLL.ExportUpLoad();
+            BLL.ExportBLL.ExportUpLoad();
         }
     }
 }
